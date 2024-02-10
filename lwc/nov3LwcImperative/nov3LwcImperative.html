@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Imperative method">
+
+    <template if:true={accountList}>
+    <lightning-datatable data="accountList" columns="column" key-field="Id"></lightning-datatable>
+
+    </template>
+    <template if:true={goterror}>
+        <p>error has been got</p>
+
+    </template>
+    <p>{accountList}</p>
+   
+    
+    </lightning-card> 
+</template>

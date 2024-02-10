@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Default Card">
+    <lightning-button label= {buttonLabel} onclick= {buttonClickHandler}></lightning-button>
+    <lightning-button label= {buttonLabel2} onclick= {buttonClickHandler}></lightning-button>
+
+    </lightning-card>
+    <template if:true= {cardStatus}>
+        <lightning-card title= "Nested Card"></lightning-card>
+        <lightning-card title="Another Card"></lightning-card>       
+
+    </template>
+       
+    
+</template>
