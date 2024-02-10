@@ -1,0 +1,13 @@
+<apex:page >
+    <apex:form >
+        <apex:pageBlock title="Calculation">
+			<apex:pageBlockSection title="Addtion Of Two Number">
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Input First Number"></apex:outputLabel>
+                    
+                </apex:pageBlockSectionItem>
+        	</apex:pageBlockSection>        
+        </apex:pageBlock>
+        
+    </apex:form>
+</apex:page>
