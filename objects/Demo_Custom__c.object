@@ -155,6 +155,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>Demo Object</label>
+    <nameField>
+        <label>Demo Custom  Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Demo Objects</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
@@ -181,14 +190,6 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
-    <label>Demo Object</label>
-    <nameField>
-        <label>Demo Custom  Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Demo Objects</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>DemoValidationRuleOne</fullName>
         <active>true</active>
@@ -199,5 +200,4 @@
 )</errorConditionFormula>
         <errorMessage>Please enter Field two if Field one is checked.</errorMessage>
     </validationRules>
-    <visibility>Public</visibility>
 </CustomObject>
